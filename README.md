@@ -25,14 +25,14 @@ The easiest way to use react-select-google-places is to install it from NPM and 
 You can also use the standalone build by including `dist/react-select-google-places.js` in your page. If you use this, make sure you have already included React, and it is available as a global variable.
 
 ```
-npm install react-select-google-places --save
+npm install react-google-places --save
 ```
 
 
 ## Usage
 
 ```
-var ReactSelectGooglePlaces = require('react-select-google-places');
+var ReactSelectGooglePlaces = require('react-google-places');
 
 <ReactSelectGooglePlaces>Example</ReactSelectGooglePlaces>
 ```

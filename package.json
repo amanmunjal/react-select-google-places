@@ -1,6 +1,6 @@
 {
   "name": "react-google-places",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "React Select Google Places",
   "main": "lib/SelectGooglePlaces.js",
   "author": "Josh Bedo",
