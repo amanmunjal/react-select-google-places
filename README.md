@@ -5,7 +5,6 @@ This is a Google Places Autocomplete select component based on [React Select](ht
 
 ## Demo & Examples
 
-Live demo: [javiercr.github.io/react-select-google-places](http://javiercr.github.io/react-select-google-places/)
 
 To build the examples locally, run:
 
@@ -55,7 +54,5 @@ To build, watch and serve the examples (which will also watch the component sour
 
 ## License
 
-__PUT LICENSE HERE__
-
-Copyright (c) 2016 Javier Cuevas.
+WTFPL License
 

@@ -1,16 +1,16 @@
 {
-  "name": "react-select-google-places",
-  "version": "1.0.1",
+  "name": "react-google-places",
+  "version": "1.0.0",
   "description": "React Select Google Places",
   "main": "lib/SelectGooglePlaces.js",
-  "author": "Javier Cuevas",
-  "homepage": "https://github.com/javiercr/react-select-google-places",
+  "author": "Josh Bedo",
+  "homepage": "https://github.com/joshbedo/react-select-google-places",
   "repository": {
     "type": "git",
-    "url": "https://github.com/javiercr/react-select-google-places.git"
+    "url": "git+https://github.com/joshbedo/react-select-google-places.git"
   },
   "bugs": {
-    "url": "https://github.com/javiercr/react-select-google-places/issues"
+    "url": "https://github.com/joshbedo/react-select-google-places/issues"
   },
   "dependencies": {
     "classnames": "^2.1.2",
@@ -45,5 +45,9 @@
   "keywords": [
     "react",
     "react-component"
-  ]
+  ],
+  "directories": {
+    "example": "example"
+  },
+  "license": "ISC"
 }

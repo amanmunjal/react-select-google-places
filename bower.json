@@ -1,11 +1,11 @@
 {
-  "name": "react-select-google-places",
+  "name": "react-google-places",
   "version": "0.0.0",
   "description": "React Select Google Places",
   "main": "dist/react-select-google-places.min.js",
-  "homepage": "https://github.com/javiercr/react-select-google-places",
+  "homepage": "https://github.com/joshbedo/react-select-google-places",
   "authors": [
-    "Javier Cuevas"
+    "Josh Bedo"
   ],
   "moduleType": [
     "amd",
