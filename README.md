@@ -2,6 +2,8 @@
 
 This is a Google Places Autocomplete select component based on [React Select](https://jedwatson.github.io/react-select/).
 
+NOTE: Google Maps API Key Required!
+
 
 ## Demo & Examples
 
@@ -29,21 +31,11 @@ npm install react-select-google-places --save
 
 ## Usage
 
-__EXPLAIN USAGE HERE__
-
 ```
 var ReactSelectGooglePlaces = require('react-select-google-places');
 
 <ReactSelectGooglePlaces>Example</ReactSelectGooglePlaces>
 ```
-
-### Properties
-
-* __DOCUMENT PROPERTIES HERE__
-
-### Notes
-
-__ADDITIONAL USAGE NOTES__
 
 
 ## Development (`src`, `lib` and the build process)
