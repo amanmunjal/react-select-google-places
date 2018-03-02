@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "little-loader": "^0.2.0",
-    "react-select": "1.0.0-beta12"
+    "react-select": "2.0.0-alpha.6"
   },
   "devDependencies": {
     "babel-eslint": "^4.1.3",
