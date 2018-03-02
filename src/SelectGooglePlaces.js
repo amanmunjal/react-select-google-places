@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Select from 'react-select';
 import load from 'little-loader';
 
@@ -120,16 +121,16 @@ class SelectGooglePlaces extends React.Component {
 }
 
 SelectGooglePlaces.propTypes = {
-  apiKey: React.PropTypes.string.isRequired, // API Key
-  language: React.PropTypes.string,          // Language code for loading Google Maps API
-  country: React.PropTypes.string,           // ISO 3166-1 Alpha-2 country code for limiting results
-  types: React.PropTypes.array,              // Types of results to be displayed
+  apiKey: PropTypes.string.isRequired, // API Key
+  language: PropTypes.string,          // Language code for loading Google Maps API
+  country: PropTypes.string,           // ISO 3166-1 Alpha-2 country code for limiting results
+  types: PropTypes.array,              // Types of results to be displayed
                                              // See https://developers.google.com/places/supported_types#table3
-  formatName: React.PropTypes.func,          // Receives the result placesService.getDetails() and returns a formatted name
+  formatName: PropTypes.func,          // Receives the result placesService.getDetails() and returns a formatted name
                                              // See https://developers.google.com/maps/documentation/javascript/3.exp/reference#PlaceResult
-  onChange: React.PropTypes.func,            // onChange handler: function (newValue) {}
-  optionsForSelect: React.PropTypes.object,  // See https://github.com/JedWatson/react-select#further-options
-  initialValue: React.PropTypes.any,
+  onChange: PropTypes.func,            // onChange handler: function (newValue) {}
+  optionsForSelect: PropTypes.object,  // See https://github.com/JedWatson/react-select#further-options
+  initialValue: PropTypes.any,
 };
 
 SelectGooglePlaces.defaultProps = {
